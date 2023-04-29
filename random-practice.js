@@ -1,4 +1,33 @@
- var name = prompt("Whats your name");
+//Whos going to buy the lunch excerices!!!!
+function whosPaying(names) {
+    
+    var l = names.length;
+    var n = Math.floor(Math.random()*l);
+    var randomPerson = names[n];
+    
+    return randomPerson + " is going to buy lunch today!";
+}
+
+
+/******New code*******/
+
+
+//lyrics of 99 bottles!!
+function lyricsOf99Bottles(){
+    var n = 99;
+    while(n>=0){
+        console.log(n + " bottles of beer on the wall, "+ n + " bottles of beer");
+        console.log("Take one down and pass it around, " + --n + " bottles of beer on the wall");
+    }
+        console.log("1 bottle of beer on the wall, 1 bottle of beer");
+        console.log("Take onw down and apss it around, no bottles of beer on the wall");
+}
+
+/******New code*******/
+
+
+var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"]; 
+var name = prompt("Whats your name");
  var one = name.slice(0,1);
 console.log(one);
 one = one.toUpperCase();
@@ -49,22 +78,4 @@ if(n%3==0 && n%5==0){
 }
 
 
-//Whos going to buy the lunch excerices!!!!
-function whosPaying(names) {
-    
-/******Don't change the code above*******/
-    
-    //Write your code here.
-    var l = names.length;
-    var n = Math.floor(Math.random()*l);
-    var randomPerson = names[n];
-    
-    return randomPerson + " is going to buy lunch today!";
-    
-    
-    
 
-
-/******Don't change the code below*******/    
-}
-var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
