@@ -47,3 +47,24 @@ if(n%5==0){
 if(n%3==0 && n%5==0){
     console.log("FizzBuzz");
 }
+
+
+//Whos going to buy the lunch excerices!!!!
+function whosPaying(names) {
+    
+/******Don't change the code above*******/
+    
+    //Write your code here.
+    var l = names.length;
+    var n = Math.floor(Math.random()*l);
+    var randomPerson = names[n];
+    
+    return randomPerson + " is going to buy lunch today!";
+    
+    
+    
+
+
+/******Don't change the code below*******/    
+}
+var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
