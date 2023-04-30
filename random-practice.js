@@ -112,18 +112,30 @@ document.querySelector("button").addEventListener("click", function(){
 
 
 /*****calculator*****/
-function add(num1, num2) {
-    return num1+num2;
-}
 function multiply(num1, num2) {
     return num1*num2;
 }
 
-function calc(num1, num2, operator) {
-//high order functions
-    return operator(num1,num2);
+function add(num1, num2) {
+    return num1+num2;
 }
 
-calc(2,3,multiply);
+function divide(num1, num2) {
+    return num1/num2;
+}
+
+function subtract(num1, num2) {
+    return num1-num2;
+}
+
+function cal(num1, num2,operator) {
+    //high order function
+    return operator(num1,num2);
+}
+//calling subtract
+cal(5,2,subtract);
+3
+//calling multiply
+cal(2,3,multiply);
 
 /*******/
