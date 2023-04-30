@@ -77,5 +77,22 @@ if(n%3==0 && n%5==0){
     console.log("FizzBuzz");
 }
 
+/*******random DOM****/
 
+document.querySelector("input").click();
+
+var heading = document.firstElementChild.lastElementChild.lastElementChild.lastElementChild;
+
+document.getElementsByTagName("li");
+document.getElementsByTagName("li")[2].style.color = "red";
+
+
+document.querySelector("li a");
+document.querySelector("li a").style.color = "red";
+document.querySelector("#btn").style.backgroundColor = "red";
+
+document.querySelector("a").setAttribute("href", "https://www.youtube.com");
+
+document.querySelector(".h1").classList;
+document.querySelector("h1").classList.toggle("huge");
 
