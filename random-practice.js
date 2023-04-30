@@ -120,6 +120,7 @@ function multiply(num1, num2) {
 }
 
 function calc(num1, num2, operator) {
+//high order functions
     return operator(num1,num2);
 }
 
