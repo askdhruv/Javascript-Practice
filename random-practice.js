@@ -96,3 +96,19 @@ document.querySelector("a").setAttribute("href", "https://www.youtube.com");
 document.querySelector(".h1").classList;
 document.querySelector("h1").classList.toggle("huge");
 
+/******Event Listner****/
+
+document.querySelector("button").addEventListener("click", wBtnClicked);
+
+function wBtnClicked(){
+    alert("W got clicked");
+}
+
+//does same thing as above
+
+document.querySelector("button").addEventListener("click", function(){
+    alert("W got clicked");
+});
+
+
+/**********/
