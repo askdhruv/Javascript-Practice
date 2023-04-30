@@ -111,4 +111,18 @@ document.querySelector("button").addEventListener("click", function(){
 });
 
 
-/**********/
+/*****calculator*****/
+function add(num1, num2) {
+    return num1+num2;
+}
+function multiply(num1, num2) {
+    return num1*num2;
+}
+
+function calc(num1, num2, operator) {
+    return operator(num1,num2);
+}
+
+calc(2,3,multiply);
+
+/*******/
