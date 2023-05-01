@@ -138,4 +138,14 @@ cal(5,2,subtract);
 //calling multiply
 cal(2,3,multiply);
 
-/*******/
+/****Constructor Function****/
+function BellBoy(name, age, permit, language){
+    this.name = name;
+    this.age = age;
+    this.permit = permit;
+    this.language = language;
+}
+//how to call
+var BellBoy1 = BellBoy("Dan", 21, true, ["English","French"]);
+
+/********/
