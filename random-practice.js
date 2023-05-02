@@ -148,4 +148,25 @@ function BellBoy(name, age, permit, language){
 //how to call
 var BellBoy1 = BellBoy("Dan", 21, true, ["English","French"]);
 
+/****Callback funtions****/
+
+function addAnotherEventListner(typeOfEvent, callback){
+    eventThatHappend = {
+        eventType: "keypress",
+        key: "p",
+        duration: 2
+    }
+
+if(eventThatHappend.eventType === typeOfEvent){
+    callback(eventThatHappend);
+}
+
+}
+
+//caling back
+
+addAnotherEventListner("keypress",function(event){
+    console.log(event);
+});
+
 /********/
